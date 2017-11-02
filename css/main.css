@@ -1,43 +1,82 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    background-color: #f44242;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+
+
+
+nav-list {
+  display: flex;
 }
 
-ul.posts li {
-    list-style: none;
+ul {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+    top: 0;
+    width: 100%;
+  display: flex;
 }
+
+li { 
+  float: left;
+  border-right: 1px solid #bbb;
+    font-family: sans-serif;
+  display: flex
+}
+
+.nav-col {
+  display: block;
+padding: 14px 16px;
+color: white;
+text-align: center;
+  text-decoration: none;
+  display: flex;
+}
+
+#name {
+  text-align: center;
+color: white;
+font-family: verdana;
+font-size: 50px;
+letter-spacing: 20px;
+word-spacing: 1px;
+border-bottom: 5px solid salmon;
+}
+h2 {
+  color: white;
+  display: flex;
+}
+#slideshow {
+  text-align: center;
+}
+img {
+  width: 230px;
+  height: 230px;
+  border: dotted black
+}
+button {
+  color:white;
+  background-color:#f44242;
+}
+.hidden {
+  visibility: hidden;
+}
+#who, #Mypoem {
+  color: white
+}
+#words, #poem {
+  background-color: white;
+  border: dashed red;
+  font-weight: bold;
+  padding:10px;
+  margin:10px;
+}
+#songs {
+  color: white;
+}
+
+
+
