@@ -77,6 +77,10 @@ button {
 #songs {
   color: white;
 }
+.content{
+    border: solid black;
+    background-color: white
+}
 
 
 
