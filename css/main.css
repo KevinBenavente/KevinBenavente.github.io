@@ -1,10 +1,6 @@
 body {
     background-color: #f44242;
 }
-
-
-
-
 nav-list {
   display: flex;
 }
@@ -46,8 +42,9 @@ word-spacing: 1px;
 border-bottom: 5px solid salmon;
 }
 h2 {
-  color: white;
+  color: black;
   display: flex;
+  
 }
 #slideshow {
   text-align: center;
