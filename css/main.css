@@ -65,7 +65,7 @@ button {
   visibility: hidden;
 }
 #who, #Mypoem {
-  color: white
+  color: black;
 }
 #words, #poem {
   background-color: white;
